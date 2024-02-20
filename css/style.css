@@ -1,0 +1,38 @@
+.mariaclasse{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.stylofooter{
+    height: 206px;
+    background-color: #ededed;
+
+
+}
+
+.elementosfooter{
+
+    padding-left: 50px;
+
+}
+
+.elementosfooter1{
+
+    padding-left: 80px;
+
+}
+
+.elementosfooter2{
+
+    padding-left: 100px;
+
+}
+
+.box{
+
+    display: flex;
+
+}
