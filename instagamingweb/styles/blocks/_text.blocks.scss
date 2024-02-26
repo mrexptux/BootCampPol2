@@ -1,0 +1,28 @@
+.texto {
+    font-size: 15px;
+    color: var(--color-white);
+
+    &--l {
+        font-size: 18px;
+        color: var(--color-white);
+    }
+
+    &--2l {
+        font-size: 23px;
+        color: var(--color-white);
+    }
+
+    &--xl {
+        font-size:27px;
+        color: var(--color-white);
+    }
+
+    &--logo {
+        color: var(--color);
+        font-size: 32px;
+    }
+
+    // &--white {
+    //     color: var(--color-white);
+    // }
+}

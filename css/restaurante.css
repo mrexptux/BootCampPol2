@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.navegador{
+    background-color: #1f1f1f;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+   
+}
+
+.navegador-hijo1{
+   height: 100%;
+   width: 30%;
+   margin-left: 120px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center
+   
+}
+
+.navegador-hijo2{
+    height: 100%;
+    width: 30%;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+
+.hijoDiv1{
+   
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenclase{
+    height: 70%;
+    width: 20%;
+  
+   
+}
+
+.imagenclase1{
+
+    height: 70%;
+    width: 70%;
+
+}
+
+
+.divpadre{
+   
+    width: 100vw;
+    display: flex;
+}
+
+.liclass{
+    height: 30%;
+    list-style:none;
+    padding:0;
+    margin:0;
+    color: white;
+    
+}
+
+
+.btn{
+
+ 
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover span{
+
+    color: blue;
+
+}
+
+.footercolor{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ededed;
+
+}
+
+
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100vw;
+    height: 40vh;
+    background-color: #0a141d;
+  
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 100px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 100px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.navegador1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgaside{
+
+    width: 100%;
+
+}
+
+
+.article-padre {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+    text-align: center;
+  }
+  
+  .article-padre > h1,
+  .hijos-articulo {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .hijos-articulo {
+    background: right/contain content-box border-box no-repeat
+      url('/media/examples/rain.svg') white;
+  }
+  
+  .hijos-articulo > h2,
+  .hijos-articulo > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+  }

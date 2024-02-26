@@ -1,38 +1,102 @@
 .mariaclasse{
-
-    width: 100%;
-    height: 100%;
-
+    width: 30%;
+    height: 30%;
 }
-
 
 .stylofooter{
     height: 206px;
     background-color: #ededed;
+}
+
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.divfooter{
+
+    background-color: red;
+
+}
+
+.contenedor
+{
+   
+    display: block; 
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    src: url('fonts/Oswald-VariableFont_wght.ttf');
+    font-size: 20px
+}
+
+
+.centrarNavegador{
+
+    justify-content: center;
+    margin-left: 650px !important;
 
 
 }
 
+p {
+    font-family: "Oswald", sans-serif;
+    src: url('fonts/Oswald-VariableFont_wght.ttf');
+
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+border: 1px solid black;
+}
+
+nav ul li:hover {
+    background: #eca023
+}
+
+
 .elementosfooter{
-
     padding-left: 50px;
-
 }
 
 .elementosfooter1{
-
     padding-left: 80px;
-
 }
 
 .elementosfooter2{
-
     padding-left: 100px;
-
 }
 
 .box{
-
     display: flex;
-
 }
+
+:is(input,textarea):invalid {
+    background: red;
+    color: #fff;
+  }
+  
+  ::placeholder {
+    color: darkred;
+  }
