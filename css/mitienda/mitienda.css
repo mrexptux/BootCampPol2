@@ -1,0 +1,124 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Arial;
+}
+
+/* GALLERY */
+
+.galeria-fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-fotos-elementos{
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.galeria-fotos-texto{
+    text-align: center;
+}
+
+.galeria-fotos-titulo{
+    display: block;
+    margin: 2px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.galeria-fotos-precio{
+    font-weight: bold;
+}
+
+/* HEADER */
+
+.header-padre{
+    text-align: center;
+}
+
+.header-padre-titulo{
+    font-size: 3rem;
+}
+
+.header-padre-izquierda{
+    display: flex;
+    position: absolute;
+    top: 32px;
+    right: 18px;
+    align-items: center;
+}
+
+/* NAV */
+
+.b-nav{
+    position: absolute;
+    top: 32px;
+    left: 18px;
+    text-align: left;
+}
+
+.navegador-enlaces{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.navegador-links-acivos{
+    font-weight: bold;
+}
+
+.navegador-links-promociones{
+    color: orangered;
+    font-weight: bold;
+}
+
+.navegador-genero{
+    color: grey;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.nav-genero-active{
+    color:#000;
+    font-weight: bold;
+}
+
+.nav-genero{
+    margin-bottom: 1rem;
+}
+
+/* BUSCADOR */
+
+.buscador{
+    position: relative
+}
+
+.buscador-iconos{
+    width: 0.85rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6px;
+}
+
+.buscador-inputs{
+    border: 0;
+    border-bottom: 2px solid;
+    padding: 0.25rem 0.25rem 0.25rem 2rem 
+}
+
+/* ICONOS */
+
+.iconos{
+    width: 1rem;
+}
+
+.icono-espacio{
+    margin: 0 10px;
+}

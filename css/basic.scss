@@ -1,0 +1,17 @@
+nav{
+
+    --color-primary:red;
+    --pepe: black;
+    --aitor: 1px solid red;
+
+    li{
+        color: var(--color-primary);
+    }
+
+    ul{
+
+        color: var(--pepe);
+
+    }
+
+}

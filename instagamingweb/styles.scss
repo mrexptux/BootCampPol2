@@ -1,0 +1,16 @@
+@import "styles/settings/colors.settings";
+@import "styles/settings/bootstrap.settings";
+
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "assets/fonts/icons/style.css";
+
+@import "styles/elements/font-faces.elements";
+@import "styles/elements/body.elements";
+@import "styles/elements/a.elements";
+@import "styles/elements/img.elements";
+
+@import "styles/blocks/text.blocks";
+@import "styles/blocks/header.blocks";
+@import "styles/blocks/nav.blocks";
+@import "styles/blocks/btn.blocks";
+@import "styles/blocks/card.blocks";

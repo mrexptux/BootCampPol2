@@ -1,0 +1,18 @@
+.header-principal{
+    background-image: url("https://s3.gaming-cdn.com/images/homeDisplay/campaign-banner-639c26a3e2b83.jpg");
+    height: 576px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    &::after{
+        content: "";
+        clip-path: polygon(0 100%,100% 100%,0 0);
+        background: var(--color-dark);
+        height: 60px;
+        min-width: 1700px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+    }
+}

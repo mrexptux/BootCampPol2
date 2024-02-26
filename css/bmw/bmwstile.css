@@ -1,0 +1,155 @@
+.texto {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 800;
+}
+
+.texto-mini {
+    font-weight: 600;
+    font-size: 14px;
+    color: #BABABA;
+}
+
+.texto-medio {
+    font-size: 18px;
+    color: #BABABA;
+}
+
+.texto-grande {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.header-padre {
+    background-image: url(../../img/bmw/bmw-background.jpg);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.header--underline {
+    position: relative;
+}
+
+.header--underline:before {
+    content: '';
+    width: calc(100% - 110px);
+    height: 0.5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: .5px;
+    left: 0;
+}
+
+.header-info {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.subheading {
+    font-size: 20px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.boton {
+    background-color: #1c69d4;
+    padding: 16px;
+    min-width: 240px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+}
+
+.navegador-link {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: block;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+.iconos {
+    width: 20px;
+    display: inline-block;
+}
+
+.logo-badge {
+    width: 80px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.logo-badge-text {
+    background-color: #FFFFFF;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 7px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.logo-badge-imagen {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.tabulacion {
+    display: flex;
+    align-items: center;
+}
+
+.tabulacion-elementos {
+    margin-top: 4px;
+    padding: 32px 34px 32px 34px;
+    color: #BABABA;
+    border-bottom: 1px solid #BABABA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.tabulacion-elementos-selecionados {
+    margin-top: 0;
+    color: #333333;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 4px solid #1c69d4;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.galeria-elementos {
+    width: 25%;
+}
